@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+/* font-family: 'Overpass', sans-serif; */
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  --White: hsl(0, 0%, 100%);
+  --LightGrey: hsl(217, 12%, 63%);
+  --MediumGrey: hsl(216, 12%, 54%);
+  --DarkBlue: hsl(213, 19%, 18%);
+  --VeryDarkBlue: hsl(216, 12%, 8%);
+}
+body {
+    font-size: 15px;
+    background-color: var(--VeryDarkBlue);
+    color: var(--White);
+    font-family: 'Overpass', sans-serif;
+   
+}
+.container-1{
+    margin: 200px auto ;
+    background-color: var(--DarkBlue);
+    max-width: 25em;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    height:22em;
+
+}
+.image-1{
+    text-align: left;
+    background-color: var(--VeryDarkBlue);
+    width:fit-content;
+    padding: 15px;
+    border-radius: 60px;
+}
+.container-1 h2{
+    text-align: left;
+   
+
+}
+.container-1 p{
+    text-align: left;
+   
+}
+.buttons{
+    text-align: center;
+    padding: 25px;
+    width: 90%;
+}
+
+button{
+    margin:0 10px 10px 0;
+    padding: 15px;
+    width:45px;
+    border-radius: 120px;
+    background-color: var(--VeryDarkBlue);
+    border-color: var(--MediumGrey);
+    border:0;
+    color: var(--White);
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:focus{
+   
+    background-color: var(--MediumGrey);
+}
+button:hover{
+    background-color: var(--Orange);
+}
+#submit{
+    
+    width: 90%;
+    background-color: var(--Orange);
+    border: 0;
+    border-radius: 20px;
+    height: 3em;
+    text-transform: uppercase;
+    color: var(--White);
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: var(--White);
+    color: var(--Orange);
+}
+.container-2{
+    margin: 200px auto;
+    padding:20px;
+    background-color: var(--DarkBlue);
+    max-width: 25em;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-family:'Overpass', sans-serif ;
+    height:22em;
+    
+     
+   
+}
+.hidden{
+    display: none;
+}
+.container-2 img{
+    padding: 10px;
+
+
+}
+.rating{
+    margin:auto;
+    padding: 10px;
+    background-color: var(--VeryDarkBlue);
+    width:70%;
+    border-radius: 30px;
+    color: var(--Orange);
+    
+}
